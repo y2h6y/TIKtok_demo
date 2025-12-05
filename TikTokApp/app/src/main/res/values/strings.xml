@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TikTok</string>
+    
+    <!-- Tab标题 -->
+    <string name="tab_recommend">推荐</string>
+    <string name="tab_following">关注</string>
+    <string name="tab_nearby">附近</string>
+    
+    <!-- 按钮文本 -->
+    <string name="btn_follow">关注</string>
+    <string name="btn_share">分享</string>
+    <string name="btn_comment">评论</string>
+    <string name="btn_send">发送</string>
+    
+    <!-- 提示信息 -->
+    <string name="hint_input_comment">说点什么...</string>
+    <string name="loading">加载中...</string>
+    <string name="no_more_data">没有更多了</string>
+    <string name="load_failed">加载失败</string>
+    <string name="comment_success">评论成功</string>
+    <string name="comment_failed">评论失败</string>
+    
+    <!-- 数量显示 -->
+    <string name="like_count_format">%d</string>
+    <string name="comment_count_format">%d</string>
+    <string name="share_count_format">%d</string>
+</resources>

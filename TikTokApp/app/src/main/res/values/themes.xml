@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.TikTokApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/tiktok_black</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/tiktok_red</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/tiktok_black</item>
+        <!-- Customize your theme here. -->
+    </style>
+    
+    <!-- 全屏主题 -->
+    <style name="Theme.TikTokApp.FullScreen" parent="Theme.TikTokApp">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    <!-- TabLayout样式 -->
+    <style name="TikTokTabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabTextColor">@color/tiktok_gray</item>
+        <item name="tabSelectedTextColor">@color/tiktok_white</item>
+        <item name="tabIndicatorColor">@color/tiktok_red</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabTextAppearance">@style/TikTokTabTextAppearance</item>
+    </style>
+    
+    <style name="TikTokTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

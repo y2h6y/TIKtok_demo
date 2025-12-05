@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    
+    <!-- 渐变背景 -->
+    <gradient
+        android:angle="45"
+        android:startColor="#FF4E8AE8"
+        android:centerColor="#FF6F5BC9"
+        android:endColor="#FF8E42D8"
+        android:type="linear" />
+    
+    <!-- 边框 -->
+    <stroke
+        android:width="2dp"
+        android:color="#AAFFFFFF" />
+    
+    <!-- 大小 -->
+    <size
+        android:width="48dp"
+        android:height="48dp" />
+    
+</shape>
